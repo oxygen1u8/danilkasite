@@ -1,0 +1,142 @@
+@font-face{
+    font-family: NewYorkSmallRegular;
+    src:url(fonts/NewYorkSmallRegular.otf);
+}
+@font-face{
+    font-family: NewYorkExtraLargeRegular;
+    src:url(fonts/NewYorkExtraLargeRegular.otf);
+}
+@font-face{
+    font-family: SFMonoRegular;
+    src:url(fonts/SFMonoRegular.otf);
+}
+@font-face{
+    font-family: SFProDisplay-Regular;
+    src:url(fonts/SFProDisplay-Regular.otf);
+}
+body{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+ul{
+    height: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+li{
+    height: 99%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+    margin-right: 31px;
+}
+.menu ul li:nth-child(1){
+    border-bottom: black 2px solid;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 133px;
+    border-bottom: 0.5px solid;
+    border-color: gray;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    height: 100%;
+    font-family: NewYorkSmallRegular;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 61px;
+}
+
+.logo{
+    margin-left: 63px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 77px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1{
+    margin-top: 44px;
+    margin-bottom: 32px;
+    font-size: 54px;
+    font-weight: 700;
+    font-family: NewYorkExtraLargeRegular;
+    width: 60%;
+}
+
+.text2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "SFMonoRegular";
+    width: 40%;
+    margin-bottom: 34px;
+}
+
+.allpictures{
+    border-top: 2px solid;
+    border-color: black;
+    margin-bottom: 500px;
+}
+
+.text3{
+    font-family: NewYorkExtraLargeRegular;
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 64px;
+    margin-bottom: 39px;
+}
+
+.textpic{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    margin-bottom: 64px;
+}
+
+.block p{
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 20px;
+    width: 262px;
+    font-family: SFProDisplay-Regular;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p{
+    margin: 0;
+    text-align: center;
+}
+
+.textpic .block:nth-child(2n+1){
+    margin-right: 14px;
+}
+
+.textpic .block:nth-child(2n){
+    margin-left: 14px;
+}
